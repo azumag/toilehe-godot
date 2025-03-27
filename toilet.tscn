@@ -1,16 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://e7f8g9h0i1j2"]
+[gd_scene load_steps=3 format=3 uid="uid://e7f8g9h0i1j2"]
 
-[ext_resource type="Script" path="res://toilet.gd" id="1_abcde"] # 仮のID
-[ext_resource type="Texture2D" uid="uid://c6k4b7w8x9y0" path="res://icon.svg" id="2_klmno"] # IDをずらす
+[ext_resource type="Script" path="res://toilet.gd" id="1_abcde"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pqrst"]
 size = Vector2(128, 128)
 
 [node name="Toilet" type="Area2D"]
-script = ExtResource("1_abcde") # 仮のID
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_klmno")
+script = ExtResource("1_abcde")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_pqrst")

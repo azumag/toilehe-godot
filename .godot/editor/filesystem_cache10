@@ -1,0 +1,8 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1743067999
+main.tscn::PackedScene/PackedScene::195497521140281001::1743049435::0::1::::<><><>0<>0<><>::uid://d1e2f3g4h5i6::::res://player.tscn<>uid://e7f8hah0i1j2::::res://toilet.tscn
+player.gd::GDScript/GDScript::1052271001677792424::1743045630::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::264531743109100143::1743067970::0::1::::<><><>0<>0<><>::uid://o8y0quugxybo::::res://player.gd
+README.md::TextFile/TextFile::-1::1743045630::0::1::::<><><>0<>0<><>::
+toilet.gd::GDScript/GDScript::8564564603064777117::1743045630::0::1::::<>Area2D<><>0<>0<><>::
+toilet.tscn::PackedScene::347178346859988453::1743067933::0::1::::<><><>0<>0<><>::res://toilet.gd
